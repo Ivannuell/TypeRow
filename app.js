@@ -159,13 +159,6 @@ function check() {
   })
 
   typedChar_arr.push(charCheckWrong)
-  // TODO fix the counting of correct and wrong char to be used in the calculation of acc and wpm
-  //
-  // console.log(char_typedCorrect, " = correct ")
-  // console.log(char_typedWrong, " = wrong")
-  // console.log(typedChar_arr)
-  // console.log("------------------------------ \n")
-
 }
 
 
