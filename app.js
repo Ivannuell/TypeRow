@@ -34,9 +34,9 @@ const words = [
   "JavaScript is the only language that I'm aware of that people feel they don't need to learn before they start using it.",
   "Be humble, communicate clearly, and respect others. It costs nothing to be kind, but the impact is priceless.",
   "If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.",
-  "I make mistakes because I’m always operating at my limit. If I only stay in comfortable territory all the time, that’s not so much fun.",
+  "I make mistakes because I'm always operating at my limit. If I only stay in comfortable territory all the time, that's not so much fun.",
   "If you learn how to solve problems, you can go through life and do pretty well.",
-  "To be successful, you want to surround yourself with very talented folks whose skills blend very well. That’s the secret of success.",
+  "To be successful, you want to surround yourself with very talented folks whose skills blend very well. That's the secret of success.",
   "Good judgement comes from experience. Experience comes from bad judgement."
 ]
 
@@ -165,9 +165,9 @@ function check() {
   //
   // console.log(char_typedCorrect, " = correct ")
   // console.log(char_typedWrong, " = wrong")
-  typedChar_arr.push(charCheckWrong)
-  console.log(typedChar_arr)
-  console.log("------------------------------ \n")
+  // typedChar_arr.push(charCheckWrong)
+  // console.log(typedChar_arr)
+  // console.log("------------------------------ \n")
 
 }
 
