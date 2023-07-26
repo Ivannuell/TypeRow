@@ -31,11 +31,13 @@ let charCheckWrong = false
 
 
 const words = [
-  // 'Rich people without wisdom and learning are but sheep with golden fleeces.',
-  'It would be nice if I did have a good relationship with my family, and yes, part of me longs to have a mum and dad who love and accept me for who I am. But if they never do, it\'s OK.',
-  'Innovations that are guided by smallholder farmers, adapted to local circumstances, and sustainable for the economy and environment will be necessary to ensure food security in the future.',
-  // 'He who shall hurt the little wren Shall never be beloved by men.',
-  'A writer of fiction lives in fear. Each new day demands new ideas and he can never be sure whether he is going to come up with them or not.'
+  "JavaScript is the only language that I'm aware of that people feel they don't need to learn before they start using it.",
+  "Be humble, communicate clearly, and respect others. It costs nothing to be kind, but the impact is priceless.",
+  "If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.",
+  "I make mistakes because I’m always operating at my limit. If I only stay in comfortable territory all the time, that’s not so much fun.",
+  "If you learn how to solve problems, you can go through life and do pretty well.",
+  "To be successful, you want to surround yourself with very talented folks whose skills blend very well. That’s the secret of success.",
+  "Good judgement comes from experience. Experience comes from bad judgement."
 ]
 
 function again() {
