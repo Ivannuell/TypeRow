@@ -41,10 +41,9 @@ const words = [
 ]
 
 function again() {
-  inputArea.focus()
-  // startBttn.classList.add('hidden')
-  startBttn.innerHTML = 'Again'
   resetVal()
+  inputArea.focus()
+  startBttn.innerHTML = 'Again'
   init()
   check()
   time_counter()
@@ -89,8 +88,6 @@ function init() {
     paragraphBox.appendChild(span_char)
     // array_count += 1
   })
-
-  typedChar_arr = new Array(array_count)
 }
 
 function changeSpace(s) {
