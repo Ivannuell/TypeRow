@@ -62,6 +62,7 @@ function resetVal() {
   char_typedCorrect = 0
   count = 0
   array_count = 0
+  typedChar_arr = []
 
 }
 
