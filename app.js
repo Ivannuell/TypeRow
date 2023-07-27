@@ -57,10 +57,9 @@ function resetVal() {
   time_container.innerText = '0'
   wpm_container.innerText = ''
   accuracy_container.innerText = ''
-  char_typedCount = 0
   char_typedWrong = 0
-  char_typedCorrect = 0
   count = 0
+  charCheckWrong = false
   array_count = 0
   typedChar_arr = []
 
@@ -154,7 +153,7 @@ function check() {
       console.log(char_typedWrong, "= wrong counts")
       calculate_wpm()
       calculate_acc()
-      startBttn.classList.remove('hidden')
+      // startBttn.classList.remove('hidden')
       startBttn.focus()
     }
   })
@@ -172,7 +171,7 @@ function time_counter() {
   timer = setInterval(() => {
     count++
     time_container.innerText = count
-  }, 1000)
+  }, 1002)
 }
 
 function calculate_wpm() {
