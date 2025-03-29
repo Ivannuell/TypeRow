@@ -70,10 +70,11 @@ function focus_now() {
 }
 
 function start() {
-  startBttn.innerHTML = 'Start'
-  inputArea.value = ''
-  resetVal()
-  paragraphBox.innerHTML = "Press Start button to begin......"
+  startBttn.innerHTML = 'Start';
+  inputArea.value = '';
+  resetVal();
+  paragraphBox.innerHTML = "Press Start button to begin......";
+  parragrapBox.style.overflow = 'overlay';
 }
 
 function randomWords() {
