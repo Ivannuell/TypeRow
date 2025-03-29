@@ -45,7 +45,8 @@ body {
   min-width: 2rem;
   width: fill;
   font-family: 'JetBrains Mono', monospace; 
-  overflow-y: scroll;
+  overflow-y: overlay;
+  overflow-x: overlay;
   scroll-behavior: smooth;
 }
 
